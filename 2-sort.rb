@@ -14,6 +14,7 @@ ARGV.each do |arg|
     
     # insert result at the right position
     is_inserted = false
+
     i = 0
     l = result.size
     while !is_inserted && i < l do
